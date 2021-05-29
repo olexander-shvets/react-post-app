@@ -6,8 +6,8 @@ import './post-status-filter.css';
 const PostStatusFilter = () => {
     return (
         <div className="btn-group">
-            <Button outline color="info">All</Button>
-            <Button type="button" className="btn btn-outline-secondary">Liked</Button>
+            <Button color="info">All</Button>
+            <Button outline color="secondary">Liked</Button>
         </div>
     )
 }
